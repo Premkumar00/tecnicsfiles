@@ -4,6 +4,8 @@ FileItemName = "Items.dat"
 data = {}
 isFound = 0
 
+print("something changed")
+
 def LoadData():
 	global data, FileItemName
 	fItem = open(FileItemName, "r")
