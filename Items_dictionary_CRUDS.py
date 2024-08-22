@@ -1,7 +1,5 @@
 # CRUD operations on Items domain, data value as lists and key as id in dictionary
 
-import timeit
-
 FileItemName = "Items.dat"
 data = {}
 isFound = 0
@@ -86,6 +84,7 @@ def ReadItems():
 def ShowMenu():
 	LoadData()
 	while True:
+		print("Hello Veeresh")
 		Menu = [AddItem, ReadItems, UpdateItem, DeleteItem, SearchItem, exit]
 		Menu[int(input("\n1) Add Account\n2) Read Details\n3) Update details\n4) DeleteItem\n5) SearchItem\n6) Exit\nEnter your choice: ")) - 1]()
 
